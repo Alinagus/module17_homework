@@ -4,8 +4,8 @@
   "description": "The semantic version parser used by npm.",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "type": "module",
-    "test": "tap",
     "snap": "tap",
     "lint": "eslint \"**/*.{js,cjs,ts,mjs,jsx,tsx}\"",
     "postlint": "template-oss-check",
